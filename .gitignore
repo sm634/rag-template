@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# General IDEs
+.idea/
+.vscode/
+*.swp
+
+# Build files
+dist/
+build/
+*.o
+*.a
+*.out
+
+# Temporary files
+*.tmp
+*.bak
+
+# Other
+*.lock
+*.pid
+*.seed
+*.cover
+*.orig

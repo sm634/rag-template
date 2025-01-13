@@ -1,0 +1,27 @@
+<instructions> 
+Use the resume provided above between the <resume></resume> tag and extract the following fields for the candidate:
+forename and surname.
+email address.
+phone number.
+LinkedIn profile URL.
+location city. 
+location country. 
+
+If you can't find any data output as empty string.
+
+Your response should be contained in the XML output format as in the example below at <example-output></example-output>.
+
+<example-output>
+    <extracted-fields>
+        <forename>Uppercase the first character of each word in a string.</forename>
+        <surname>Uppercase the first character of each word in a string.</surname>
+        <email></email>
+        <phone></phone>
+        <linkedin-profile></linkedin-profile>
+        <city>Uppercase the first character of each word in a string.</city>
+        <country>Uppercase the first character of each word in a string.</country>
+    </extracted-fields>
+</example-output>
+</instructions>
+
+response:
